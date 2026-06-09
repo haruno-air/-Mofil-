@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mofil | もふのいるカフェ</title>
+  <meta name="description" content="動物連れ込みOKのカフェ「Mofil」のサイトです。">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow"> <!--検索に出さない-->
+</head>
+
+<body>
+  <header id="header">
+    <nav id="header_nav">
+      <ul>
+        <li><a href="#concept">Concept</a></li>
+        <li><a href="#attention">Attention</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#information">Information</a></li>
+        <li><a href="#photo">Photo</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+      </ul>
+    </nav>
+    
+    <!---------------------------------------->
+    <!--▽▽ハンバーガーメニュー▽▽-->
+    <div id="hamburger">
+      <div class="icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!--△△ハンバーガーメニュー△△-->
+
+
+    <!--▽▽ハンバーガーメニューのリスト▽▽-->
+    <nav class="sm">
+      <ul>
+        <li><a href="#concept">Concept</a></li>
+        <li><a href="#attention">Attention</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#information">Information</a></li>
+        <li><a href="#photo">Photo</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+      </ul>
+    </nav>
+    <!--△△ハンバーガーメニューのリスト△△-->
+    <!---------------------------------------->
+
+    <div>
+      <h1>もふのいるカフェ</h1>
+      <div class="shop_title">
+        <h2>Mofil <span>~モフィル~</span></h2>
+      </div>
+    </div>
+  </header>
+
+    <!----▽▽jQuery▽▽---->
+    <script src="jquery-4.0.0.min.js"></script>
+      <script>
+        $('#hamburger').on('click', function(){
+        $('.icon').toggleClass('close');
+        $('.sm').slideToggle();
+        });
+      </script>
+    <!----△△jQuery△△---->
+
+  <main>
+    <section id="concept" class="background_white center">
+      <div class="heading">
+        <h3>Concept</h3>
+      </div>
+      <div class="concept_information">
+        <div class="concept_information_left">
+          <img src="images/concept.png" alt="コンセプト画">
+        </div>
+        <div class="concept-text">
+          <p class="concept-text_main">Always with family</p>
+          <p class="concept-text_sub">
+            動物連れのお客様は、テラス席だけでなく、店内のお席もご利用いただけます。
+          </p>
+          <p class="concept-text_sub">
+            ペットを飼う人の多くは、<br>
+            ただのペット(動物)としてでなく、家族の一員として生活しているのではないでしょうか。<br>
+            店主もその一人です。</p>
+          <p class="concept-text_sub">
+            思い思いの”家族”との安らぎのひとときを<br>
+            当店でお過ごしください。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="attention" class="background_white">
+      <div class="heading">
+        <h3>Attention</h3>
+      </div>
+      <div class="attention_container">
+        <div class="attention_item">
+          <img src="images/attention1.png" alt="注意画像">
+          <p class="attention_item_main">★当店は、マナーウェア着用を推奨しています★</p>
+          <p class="attention_item_sub">
+            思いがけず排泄してしまった場合、<br>
+            処理は飼い主様にお願いしております。
+          </p>
+        </div>
+        <div class="attention_item">
+          <img src="images/attention2.png" alt="注意画像">
+          <p class="attention_item_main">★店内の環境維持にご協力ください★</p>
+          <p class="attention_item_sub">
+            イスや床が濡れて滑ってしまいます。<br>
+            また匂いの原因にもなるのでご理解下さい。
+          </p>
+        </div>
+        <div class="attention_item">
+          <img src="images/attention3.png" alt="注意画像">
+          <p class="attention_item_main">★叱らずに、落ち着かせてあげてください★</p>
+          <p class="attention_item_sub">
+            吠えてしまう時は、一時的に抱き抱えてあげる等、<br>
+            ご配慮ください。
+          </p>
+        </div>
+        <div class="attention_item">
+          <img src="images/attention4.png" alt="注意画像">
+          <p class="attention_item_main">★当店は、洋服の着用を推奨しています★</p>
+          <p class="attention_item_sub">
+            飼い主様も、処理や防止にご協力いただき、<br>
+            店内でのブラッシングはご遠慮ください。
+          </p>
+        </div>
+        <div class="attention_item">
+          <img src="images/attention5.png" alt="注意画像">
+          <p class="attention_item_main">★アレルギー食の持込は、店員にお伝えください★</p>
+          <p class="attention_item_sub">
+            誤食・拾い食い等による健康影響への防止に<br>
+            ご協力ください。
+          </p>
+        </div>
+        <div class="attention_item">
+          <img src="images/attention6.png" alt="注意画像">
+          <p class="attention_item_main">★ご退店時には、店員による清掃も行います★</p>
+          <p class="attention_item_sub">
+            人も動物も皆様に利用いただくイスです<br>
+            気持ちよく利用できる様、ご協力下さい。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="background_white">
+      <div class="heading">
+        <h3>Menu</h3>
+      </div>
+
+      <div class="menu_container">
+        <div class="menu_item">
+          <h4>for Human</h4>
+
+          <div class="background_menu">
+            <h5>Drink</h5>
+            <table class="menu_table">
+              <tr>
+                <th>コーヒー（Hot/Ice）</th>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>ラテアート（Hot）</th>
+                <td>800円</td>
+              </tr>
+              <tr>
+                <th>紅茶（Hot/Ice）</dt>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>オレンジジュース（Ice）</dt>
+                <td>500円</td>
+              </tr>
+            </table>
+
+            <h5>Meal</h5>
+            <table class="menu_table">
+              <tr>
+                <th>日替プレートランチ</th>
+                <td>1000円</td>
+              </tr>
+              <tr>
+                <th>日替パスタランチ</th>
+                <td>800円</td>
+              </tr>
+              <tr>
+                <th>日替サンドイッチ</th>
+                <td>500円</td>
+              </tr>
+            </table>
+
+            <h5>Desert</h5>
+            <table class="menu_table">
+              <tr>
+                <th>日替シフォンケーキ</th>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>日替タルトケーキ</th>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>日替ジェラート</th>
+                <td>500円</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="menu_item">
+          <h4>for Animals</h4>
+          <div class="background_menu">
+            <h5>Dog</h5>
+            <table class="menu_table">
+              <tr>
+                <th>お肉セット</th>
+                <td>800円</td>
+              </tr>
+              <tr>
+                <th>お魚セット</th>
+                <td>800円</td>
+              </tr>
+              <tr>
+                <th>週替チュール</th>
+                <td>100円</td>
+              </tr>
+            </table>
+
+            <h5>Cat</h5>
+            <table class="menu_table">
+              <tr>
+                <th>お肉セット</th>
+                <td>800円</td>
+              </tr>
+              <tr>
+                <th>お魚セット</th>
+                <td>800円</td>
+              </tr>
+              <tr>
+                <th>週替チュール</th>
+                <td>100円</td>
+              </tr>
+            </table>
+
+            <h5>Other</h5>
+            <table class="menu_table">
+              <tr>
+                <th>牧草セット</th>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>ナッツセット</th>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>果物セット</th>
+                <td>500円</td>
+              </tr>
+              <tr>
+                <th>チュール（牧草/林檎）</th>
+                <td>100円</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="information" class="background_white center">
+      <div class="heading">
+        <h3>Information</h3>
+      </div>
+      <div class="concept_information">
+        <div class="concept_information_left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.548077380331!2d139.617555888855!3d35.46598109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0df6cfd2f1%3A0xbbbca6f36b5235f5!2z5qiq5rWc6aeF!5e0!3m2!1sja!2sjp!4v1779440758705!5m2!1sja!2sjp"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="information_text">
+          <h4>店舗情報</h4>
+          <p>Mofil　~モフィル~</p>
+
+          <table class="information_table">
+            <tr>
+              <th>定休日</th>
+              <td>月・火</td>
+            </tr>
+            <tr>
+              <th>営業時間</th>
+              <td>10:00～18:00</td>
+            </tr>
+            <tr>
+              <th>アクセス</th>
+              <td>
+                横浜市西区○△　＊＊ビル5階<br>
+                横浜駅から徒歩 3分
+              </td>
+            </tr>
+            <tr>
+              <th>喫煙</th>
+              <td>
+                テラス含め全席禁煙
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="photo" class="background_white">
+      <div class="heading">
+        <h3>Photo</h3>
+      </div>
+      <div class="photo_libraly">
+        <img class="zoom" src="images/photo1.png" alt="photo libraly">
+        <img class="zoom" src="images/photo2.png" alt="photo libraly">
+        <img class="zoom" src="images/photo3.png" alt="photo libraly">
+        <img class="zoom" src="images/photo4.png" alt="photo libraly">
+        <img class="zoom" src="images/photo5.png" alt="photo libraly">
+        <img class="zoom" src="images/photo6.png" alt="photo libraly">
+        <img class="zoom" src="images/photo7.png" alt="photo libraly">
+        <img class="zoom" src="images/photo8.png" alt="photo libraly">
+        <img class="zoom" src="images/photo9.png" alt="photo libraly">
+        <img class="zoom" src="images/photo10.png" alt="photo libraly">
+        <img class="zoom" src="images/photo11.png" alt="photo libraly">
+        <img class="zoom" src="images/photo12.png" alt="photo libraly">
+        <img class="zoom" src="images/photo13.png" alt="photo libraly">
+        <img class="zoom" src="images/photo14.png" alt="photo libraly">
+        <img class="zoom" src="images/photo15.png" alt="photo libraly">
+      </div>
+    </section>
+
+    <section id="reserve" class="background_white">
+      <div class="heading">
+        <h3>Reserve</h3>
+      </div>
+      <p>下記より、席のご予約も承っています。</p>
+      <div class="reserve_button">
+        <a href="https://airrsv.net/minimofu/calendar" target="_blank">予約する</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer_column">
+      <div class="footer_column_access">
+        <p class="footer_column_access_title">Access</p>
+        <p>横浜市西区○△　＊＊ビル5階</p>
+        <p>横浜駅から徒歩3分</p>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.548077380331!2d139.617555888855!3d35.46598109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0df6cfd2f1%3A0xbbbca6f36b5235f5!2z5qiq5rWc6aeF!5e0!3m2!1sja!2sjp!4v1779440758705!5m2!1sja!2sjp"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="footer_column_menu">
+        <nav class="footer_nav">
+          <ul>
+            <li><a href="#concept">Concept</a></li>
+            <li><a href="#attention">Attention</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#information">Information</a></li>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href="#reserve">Reserve</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer_column_detail">
+        <p>もふのいるカフェ</p>
+        <p class="footer_column_detail_title">Mofil　~モフィル~</p>
+        </p>
+        <table class="footer_column_detail_table">
+          <tr>
+            <th>定休日</th>
+            <td>月・火</td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>10:00～18:00</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td>xxx-xxx-xxxx</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <p class="copyright">&copy;All right reserved.</p>
+
+  </footer>
+  <a href="#" class="to_top">PAGE<br>TOPへ</a>
+
+</body>
+
+</html>
