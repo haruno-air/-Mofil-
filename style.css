@@ -291,7 +291,7 @@ Menu
 .menu_table td {
   width: 10vw;
   font-size: medium;
-  text-align: right;
+  text-align: center;
   padding-bottom: 8px;
 }
 
@@ -535,7 +535,6 @@ Footer
   transform: scale(1.2);
 }
 
-
 /***********************************
 レスポンシブ
 ***********************************/
@@ -545,6 +544,13 @@ Footer
 }
   .attention_item img {
   max-width: 330px;
+}
+
+.menu_table th {
+  padding-left: 1em;
+}
+.menu_table td {
+  padding-right: 1em;
 }
   .photo_libraly {
   grid-template-columns: repeat(4, 1fr);
@@ -562,7 +568,6 @@ Footer
   #header_nav {
   display: none;
 }
-
   /*****ハンバーガー*****/
   #hamburger {
 	background-color: transparent;
